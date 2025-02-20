@@ -1,0 +1,18 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "lib": ["ESNext", "DOM"],
+      "typeRoots": ["node_modules/@types"],
+      "types": ["node"], // 必須: Node.jsの型を明示的に読み込む
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true
+    }
+}
